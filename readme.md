@@ -1,7 +1,7 @@
-This is the list of Code and Resources I've found online regarding Multithreading in C++;
+This is the list of Code and Resources I've found online regarding Multithreading in C++
 
-Playlist resource : https://www.youtube.com/playlist?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp
-CPlusPlus Website : https://cplusplus.com/reference/thread/thread/
+Playlist resource : https://www.youtube.com/playlist?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp ;
+CPlusPlus Website : https://cplusplus.com/reference/thread/thread/ :
 
 ### QUESTIONS
 

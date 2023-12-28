@@ -1,5 +1,9 @@
 # Threads in C++
 
+## Header Thread
+
+Header that declares the `thread` class and the `this_thread` namespace
+
 ## Class `thread`
 
 Class to represent individual threads of execution.
@@ -12,10 +16,10 @@ A default-constructed (non-initialized) thread object is not joinable, and its t
 
 A joinable thread becomes not joinable if moved from, or if either join or detach are called on them.
 
-### Member types
+### Member types [Public Member Type]
 
-id Thread id (public member type)
-native_handle_type Native handle type (public member type)
+- id
+- native_handle_type
 
 ### Member functions [Public Member Functions]
 
