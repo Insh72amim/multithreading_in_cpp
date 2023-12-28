@@ -1,7 +1,8 @@
 This is the list of Code and Resources I've found online regarding Multithreading in C++
 
-Playlist resource : https://www.youtube.com/playlist?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp ;
-CPlusPlus Website : https://cplusplus.com/reference/thread/thread/ :
+Playlist resource : https://www.youtube.com/playlist?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp
+
+CPlusPlus Website : https://cplusplus.com/reference/multithreading/
 
 ### QUESTIONS
 
@@ -28,3 +29,13 @@ For example:
 `g++ -std=c++11 -o my_program simple.cpp`
 
 `g++ -std=c++11 -o a.out a.cpp`
+
+# Multithreading in C++
+
+Multi-threading in cpp consists of the following headers:
+
+- <atomic> Atomic (header)
+- <thread> Thread (header)
+- <mutex> Mutex (header)
+- <condition_variable> Condition variable (header)
+- <future> Future (header)
