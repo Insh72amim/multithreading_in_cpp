@@ -23,6 +23,9 @@ int main()
     first.join();  // pauses until first finishes
     second.join(); // pauses until second finishes
 
+    std::cout << first.get_id() << std::endl;
+    std::cout << second.get_id() << std::endl;
+
     std::cout << "foo and bar completed.\n";
 
     return 0;

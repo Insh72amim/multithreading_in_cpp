@@ -49,6 +49,8 @@ int main()
     t1.join();
     t2.join();
 
+    cout << t1.get_id() << " " << t2.get_id() << endl;
+
     auto stopTime = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stopTime - startTime);
 

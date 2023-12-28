@@ -1,8 +1,9 @@
 This is the list of Code and Resources I've found online regarding Multithreading in C++;
 
 Playlist resource : https://www.youtube.com/playlist?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp
+CPlusPlus Website : https://cplusplus.com/reference/thread/thread/
 
-QUESTIONS
+### QUESTIONS
 
 What do you understand by thread and give one example in C++?
 
@@ -14,7 +15,7 @@ For example:
 (b) MS Word must be using multiple threads, one thread to format the text, another thread to process inputs (spell checker)
 (c) Visual Studio code editor would be using threading for auto completing the code. (Intellicence)
 
-WAYS TO CREATE THREADS IN C++11
+### WAYS TO CREATE THREADS IN C++11
 
 1. Function Pointers
 2. Lambda Functions
@@ -22,7 +23,7 @@ WAYS TO CREATE THREADS IN C++11
 4. Member Functions
 5. Static Member functions
 
-##Commands to execute a file
+## Commands to execute a file
 
 `g++ -std=c++11 -o my_program simple.cpp`
 
