@@ -7,13 +7,30 @@ using namespace std;
 int myAmount = 0;
 std::timed_mutex m;
 
+// try_lock_for example
+void increment_(int i)
+{
+    if (m.try_lock_for(std::chrono::seconds(1)))
+    {
+        ++myAmount;
+        std::this_thread::sleep_for(std::chrono::seconds(2));
+        cout << "Thread " << i << " Entered" << endl;
+        m.unlock();
+    }
+    else
+    {
+        cout << "Thread " << i << " Couldn't Enter" << endl;
+    }
+}
+
+// try_lock_until example
 void increment(int i)
 {
     auto now = std::chrono::steady_clock::now();
-    if (m.try_lock_until(now + std::chrono::seconds(2)))
+    if (m.try_lock_until(now + std::chrono::seconds(1)))
     {
         ++myAmount;
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::seconds(2));
         cout << "Thread " << i << " Entered" << endl;
         m.unlock();
     }
