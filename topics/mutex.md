@@ -1,6 +1,6 @@
 # Mutex in C++
 
-## Header
+## Header Mutex
 
 Header with facilities that allow mutual exclusion (mutex) of concurrent execution of critical sections of code, allowing to explicitly avoid data races.
 
