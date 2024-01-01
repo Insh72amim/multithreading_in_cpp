@@ -10,7 +10,7 @@ long balance = 0;
 
 void addMoney(int money)
 {
-    std::lock_guard<mutex> lg(m);
+    std::unique_lock<mutex> lg(m);
     balance += money;
     cout << "Current Balance : " << balance << endl;
     cv.notify_one();
